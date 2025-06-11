@@ -96,6 +96,7 @@ span{
     border-radius: 25px;
     text-decoration: none;
     transition: background 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
   }
   
   .moon-button:hover {
