@@ -52,7 +52,7 @@ function App() {
                 year: "numeric",
                 hour: "2-digit",
                 minute: "2-digit",
-                hour12: false // ou true, se quiser formato AM/PM
+                hour12: true // formato AM/PM
               })}
             </h2>
             <p><span>Fase da lua:</span> {moonPhase}</p>
