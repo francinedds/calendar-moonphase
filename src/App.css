@@ -1,0 +1,104 @@
+:root {
+    --text-color: #fff;
+    --main-font: "Poppins", sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./src/assets/background.jpg');
+    background-size: cover;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    border: 2px solid rgba(255, 255, 255, 0.19);
+  
+    padding: 100px 5px;
+    width: 250px;
+    border-radius: 200px;
+    text-align: center;
+    font-family: var(--main-font);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.card h1 {
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+
+.card h2 {
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    color: var(--text-color);
+}
+
+span{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-color); 
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.moon-icon {
+    display: block;
+    margin: 20px auto;
+    font-size: 60px;  
+    color: var(--text-color);     
+    transition: transform 0.3s ease;
+}
+
+.moon-icon:hover {
+    transform: scale(1.1);
+}
+
+.moon-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .moon-button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+  }
